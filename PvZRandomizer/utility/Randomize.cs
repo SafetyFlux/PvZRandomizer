@@ -10,11 +10,8 @@ namespace PvZRandomizer.utility
     static class Randomize
     {
         // Randomize plant sun costs
-        public static void RandomizeSun(int min, int max, int incr)
+        public static void RandomizeSun(string file, int min, int max, int incr)
         {
-            // Define starting index
-            int startIndex = 5033770;
-
             // Set defaults if any invalid data exists
             if (min < 0 || min > max)
                 min = 0;
@@ -24,10 +21,15 @@ namespace PvZRandomizer.utility
                 incr = 1;
 
             // Edit file byte values
-            using (var stream = new FileStream("input/PlantsVsZombies.exe", 
-                FileMode.Open, FileAccess.ReadWrite))
+            using (var stream = new FileStream(file, FileMode.Open, FileAccess.ReadWrite))
             {
-                
+                // Define starting index
+                int index = 5033770;
+
+                for (int i = 0; i < 49; i++)
+                {
+
+                }
             }
         }
     }

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+
 using PvZRandomizer.utility;
 
 namespace PvZRandomizer
@@ -31,11 +33,32 @@ namespace PvZRandomizer
 
         private void BtnRandomize_Click(object sender, EventArgs e)
         {
+            // Select the game exe and make a backup of it
+            string gameExe = "";
+            OpenFileDialog exeSelector = new OpenFileDialog();
+            exeSelector.Title = "Select your Plants Vs. Zombies exe file";
+            DialogResult result = exeSelector.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                // Set game exe path
+                gameExe = exeSelector.FileName;
+
+                // Backup the game if it hasn't already been backed up
+                if (!File.Exists("backup/PlantsVsZombies.exe"))
+                {
+                    Directory.CreateDirectory("backup");
+                    File.Copy(gameExe, "backup/PlantsVsZombies.exe");
+                }
+            }
+
             // Run methods based on selected settings
             if (chkRndSun.Checked)
             {
-                Randomize.RandomizeSun((int)sunMin.Value, (int)sunMax.Value, (int)sunIncr.Value);
+                Randomize.RandomizeSun(gameExe, (int)sunMin.Value, (int)sunMax.Value, (int)sunIncr.Value);
             }
+
+            
         }
     }
 }
