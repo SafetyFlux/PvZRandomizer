@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PvZRandomizer.utility
+namespace PvZRandomizer.Utility
 {
     static class Conversion
     {

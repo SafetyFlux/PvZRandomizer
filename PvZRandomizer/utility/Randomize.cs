@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Globalization;
 
-namespace PvZRandomizer.utility
+namespace PvZRandomizer.Utility
 {
     static class Randomize
     {
