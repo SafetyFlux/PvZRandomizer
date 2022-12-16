@@ -42,6 +42,7 @@ namespace PvZRandomizer
             this.sunIncr = new System.Windows.Forms.NumericUpDown();
             this.tt_chkRndSun = new System.Windows.Forms.ToolTip(this.components);
             this.tt_chkShfSun = new System.Windows.Forms.ToolTip(this.components);
+            this.btnRestore = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sunMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sunMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sunIncr)).BeginInit();
@@ -72,9 +73,9 @@ namespace PvZRandomizer
             // btnRandomize
             // 
             this.btnRandomize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRandomize.Location = new System.Drawing.Point(360, 376);
+            this.btnRandomize.Location = new System.Drawing.Point(242, 400);
             this.btnRandomize.Name = "btnRandomize";
-            this.btnRandomize.Size = new System.Drawing.Size(117, 38);
+            this.btnRandomize.Size = new System.Drawing.Size(113, 38);
             this.btnRandomize.TabIndex = 3;
             this.btnRandomize.Text = "Randomize";
             this.btnRandomize.UseVisualStyleBackColor = true;
@@ -182,11 +183,23 @@ namespace PvZRandomizer
             0,
             0});
             // 
+            // btnRestore
+            // 
+            this.btnRestore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestore.Location = new System.Drawing.Point(399, 400);
+            this.btnRestore.Name = "btnRestore";
+            this.btnRestore.Size = new System.Drawing.Size(173, 38);
+            this.btnRestore.TabIndex = 11;
+            this.btnRestore.Text = "Restore Game File";
+            this.btnRestore.UseVisualStyleBackColor = true;
+            this.btnRestore.Click += new System.EventHandler(this.BtnRestore_Click);
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRestore);
             this.Controls.Add(this.lblSunIncr);
             this.Controls.Add(this.sunIncr);
             this.Controls.Add(this.lblSunMax);
@@ -225,6 +238,7 @@ namespace PvZRandomizer
         private System.Windows.Forms.NumericUpDown sunIncr;
         private System.Windows.Forms.ToolTip tt_chkRndSun;
         private System.Windows.Forms.ToolTip tt_chkShfSun;
+        private System.Windows.Forms.Button btnRestore;
     }
 }
 

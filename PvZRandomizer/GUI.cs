@@ -55,10 +55,43 @@ namespace PvZRandomizer
             // Run methods based on selected settings
             if (chkRndSun.Checked)
             {
-                Randomize.RandomizeSun(gameExe, (int)sunMin.Value, (int)sunMax.Value, (int)sunIncr.Value);
+                Randomize.RandomizeSun(gameExe, sunMin.Value, sunMax.Value, sunIncr.Value);
             }
 
-            
+            DialogResult confirm;
+            confirm = MessageBox.Show("Randomization complete!", "Done", 
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (confirm == DialogResult.OK)
+                Close();
+        }
+
+        private void BtnRestore_Click(object sender, EventArgs e)
+        {
+            // Select the game exe again to restore the exe
+            string gameExe = "";
+            OpenFileDialog exeSelector = new OpenFileDialog();
+            exeSelector.Title = "Select your Plants Vs. Zombies exe file";
+            DialogResult result = exeSelector.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                // Set game exe path
+                gameExe = exeSelector.FileName;
+
+                // Load the backup
+                if (File.Exists("backup/PlantsVsZombies.exe"))
+                {
+                    Directory.CreateDirectory("backup");
+                    File.Delete(gameExe);
+                    File.Copy("backup/PlantsVsZombies.exe", gameExe);
+                }
+            }
+
+            DialogResult confirm;
+            confirm = MessageBox.Show("Restoration complete!", "Done",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (confirm == DialogResult.OK)
+                Close();
         }
     }
 }
