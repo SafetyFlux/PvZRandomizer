@@ -43,6 +43,9 @@ namespace PvZRandomizer
             this.tt_chkRndSun = new System.Windows.Forms.ToolTip(this.components);
             this.tt_chkShfSun = new System.Windows.Forms.ToolTip(this.components);
             this.btnRestore = new System.Windows.Forms.Button();
+            this.txtGamePath = new System.Windows.Forms.TextBox();
+            this.btnSelect = new System.Windows.Forms.Button();
+            this.lblPath = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.sunMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sunMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sunIncr)).BeginInit();
@@ -72,10 +75,10 @@ namespace PvZRandomizer
             // 
             // btnRandomize
             // 
-            this.btnRandomize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRandomize.Location = new System.Drawing.Point(242, 400);
+            this.btnRandomize.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRandomize.Location = new System.Drawing.Point(38, 472);
             this.btnRandomize.Name = "btnRandomize";
-            this.btnRandomize.Size = new System.Drawing.Size(113, 38);
+            this.btnRandomize.Size = new System.Drawing.Size(150, 26);
             this.btnRandomize.TabIndex = 3;
             this.btnRandomize.Text = "Randomize";
             this.btnRandomize.UseVisualStyleBackColor = true;
@@ -185,20 +188,54 @@ namespace PvZRandomizer
             // 
             // btnRestore
             // 
-            this.btnRestore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRestore.Location = new System.Drawing.Point(399, 400);
+            this.btnRestore.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestore.Location = new System.Drawing.Point(203, 472);
             this.btnRestore.Name = "btnRestore";
-            this.btnRestore.Size = new System.Drawing.Size(173, 38);
+            this.btnRestore.Size = new System.Drawing.Size(150, 26);
             this.btnRestore.TabIndex = 11;
             this.btnRestore.Text = "Restore Game File";
             this.btnRestore.UseVisualStyleBackColor = true;
             this.btnRestore.Click += new System.EventHandler(this.BtnRestore_Click);
             // 
+            // txtGamePath
+            // 
+            this.txtGamePath.BackColor = System.Drawing.Color.White;
+            this.txtGamePath.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGamePath.Location = new System.Drawing.Point(116, 441);
+            this.txtGamePath.Name = "txtGamePath";
+            this.txtGamePath.ReadOnly = true;
+            this.txtGamePath.Size = new System.Drawing.Size(651, 22);
+            this.txtGamePath.TabIndex = 12;
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelect.Location = new System.Drawing.Point(572, 472);
+            this.btnSelect.Name = "btnSelect";
+            this.btnSelect.Size = new System.Drawing.Size(195, 26);
+            this.btnSelect.TabIndex = 13;
+            this.btnSelect.Text = "Select Game FIle";
+            this.btnSelect.UseVisualStyleBackColor = true;
+            this.btnSelect.Click += new System.EventHandler(this.BtnSelect_Click);
+            // 
+            // lblPath
+            // 
+            this.lblPath.AutoSize = true;
+            this.lblPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPath.Location = new System.Drawing.Point(35, 444);
+            this.lblPath.Name = "lblPath";
+            this.lblPath.Size = new System.Drawing.Size(75, 16);
+            this.lblPath.TabIndex = 14;
+            this.lblPath.Text = "Game Path";
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 510);
+            this.Controls.Add(this.lblPath);
+            this.Controls.Add(this.btnSelect);
+            this.Controls.Add(this.txtGamePath);
             this.Controls.Add(this.btnRestore);
             this.Controls.Add(this.lblSunIncr);
             this.Controls.Add(this.sunIncr);
@@ -239,6 +276,9 @@ namespace PvZRandomizer
         private System.Windows.Forms.ToolTip tt_chkRndSun;
         private System.Windows.Forms.ToolTip tt_chkShfSun;
         private System.Windows.Forms.Button btnRestore;
+        private System.Windows.Forms.TextBox txtGamePath;
+        private System.Windows.Forms.Button btnSelect;
+        private System.Windows.Forms.Label lblPath;
     }
 }
 
