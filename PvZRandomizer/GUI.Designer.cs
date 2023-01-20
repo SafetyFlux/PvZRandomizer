@@ -29,38 +29,21 @@ namespace PvZRandomizer
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.chkRndSun = new System.Windows.Forms.CheckBox();
             this.lblIntro = new System.Windows.Forms.Label();
             this.btnRandomize = new System.Windows.Forms.Button();
-            this.chkShfSun = new System.Windows.Forms.CheckBox();
-            this.sunMin = new System.Windows.Forms.NumericUpDown();
-            this.lblSunMin = new System.Windows.Forms.Label();
-            this.lblSunMax = new System.Windows.Forms.Label();
-            this.sunMax = new System.Windows.Forms.NumericUpDown();
-            this.lblSunIncr = new System.Windows.Forms.Label();
-            this.sunIncr = new System.Windows.Forms.NumericUpDown();
-            this.tt_chkRndSun = new System.Windows.Forms.ToolTip(this.components);
-            this.tt_chkShfSun = new System.Windows.Forms.ToolTip(this.components);
             this.btnRestore = new System.Windows.Forms.Button();
             this.txtGamePath = new System.Windows.Forms.TextBox();
             this.btnSelect = new System.Windows.Forms.Button();
             this.lblPath = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.sunMin)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sunMax)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sunIncr)).BeginInit();
+            this.ddSunCost = new System.Windows.Forms.ComboBox();
+            this.lblSunCost = new System.Windows.Forms.Label();
+            this.groupPlants = new System.Windows.Forms.GroupBox();
+            this.lblRechargeRate = new System.Windows.Forms.Label();
+            this.ddRechargeRate = new System.Windows.Forms.ComboBox();
+            this.lblOtherRate = new System.Windows.Forms.Label();
+            this.ddOtherRate = new System.Windows.Forms.ComboBox();
+            this.groupPlants.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // chkRndSun
-            // 
-            this.chkRndSun.AutoSize = true;
-            this.chkRndSun.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkRndSun.Location = new System.Drawing.Point(38, 70);
-            this.chkRndSun.Name = "chkRndSun";
-            this.chkRndSun.Size = new System.Drawing.Size(159, 20);
-            this.chkRndSun.TabIndex = 1;
-            this.chkRndSun.Text = "Randomize Sun Costs";
-            this.chkRndSun.UseVisualStyleBackColor = true;
             // 
             // lblIntro
             // 
@@ -83,108 +66,6 @@ namespace PvZRandomizer
             this.btnRandomize.Text = "Randomize";
             this.btnRandomize.UseVisualStyleBackColor = true;
             this.btnRandomize.Click += new System.EventHandler(this.BtnRandomize_Click);
-            // 
-            // chkShfSun
-            // 
-            this.chkShfSun.AutoCheck = false;
-            this.chkShfSun.AutoSize = true;
-            this.chkShfSun.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkShfSun.ForeColor = System.Drawing.Color.Red;
-            this.chkShfSun.Location = new System.Drawing.Point(213, 70);
-            this.chkShfSun.Name = "chkShfSun";
-            this.chkShfSun.Size = new System.Drawing.Size(162, 20);
-            this.chkShfSun.TabIndex = 4;
-            this.chkShfSun.Text = "Shuffle Between Plants";
-            this.chkShfSun.UseVisualStyleBackColor = true;
-            // 
-            // sunMin
-            // 
-            this.sunMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sunMin.Increment = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.sunMin.Location = new System.Drawing.Point(431, 69);
-            this.sunMin.Maximum = new decimal(new int[] {
-            5000,
-            0,
-            0,
-            0});
-            this.sunMin.Name = "sunMin";
-            this.sunMin.Size = new System.Drawing.Size(73, 22);
-            this.sunMin.TabIndex = 5;
-            // 
-            // lblSunMin
-            // 
-            this.lblSunMin.AutoSize = true;
-            this.lblSunMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSunMin.Location = new System.Drawing.Point(396, 71);
-            this.lblSunMin.Name = "lblSunMin";
-            this.lblSunMin.Size = new System.Drawing.Size(29, 16);
-            this.lblSunMin.TabIndex = 6;
-            this.lblSunMin.Text = "Min";
-            // 
-            // lblSunMax
-            // 
-            this.lblSunMax.AutoSize = true;
-            this.lblSunMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSunMax.Location = new System.Drawing.Point(516, 71);
-            this.lblSunMax.Name = "lblSunMax";
-            this.lblSunMax.Size = new System.Drawing.Size(33, 16);
-            this.lblSunMax.TabIndex = 8;
-            this.lblSunMax.Text = "Max";
-            // 
-            // sunMax
-            // 
-            this.sunMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sunMax.Increment = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.sunMax.Location = new System.Drawing.Point(555, 69);
-            this.sunMax.Maximum = new decimal(new int[] {
-            5000,
-            0,
-            0,
-            0});
-            this.sunMax.Name = "sunMax";
-            this.sunMax.Size = new System.Drawing.Size(73, 22);
-            this.sunMax.TabIndex = 7;
-            this.sunMax.Value = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            // 
-            // lblSunIncr
-            // 
-            this.lblSunIncr.AutoSize = true;
-            this.lblSunIncr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSunIncr.Location = new System.Drawing.Point(648, 70);
-            this.lblSunIncr.Name = "lblSunIncr";
-            this.lblSunIncr.Size = new System.Drawing.Size(29, 16);
-            this.lblSunIncr.TabIndex = 10;
-            this.lblSunIncr.Text = "Incr";
-            // 
-            // sunIncr
-            // 
-            this.sunIncr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sunIncr.Location = new System.Drawing.Point(683, 68);
-            this.sunIncr.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.sunIncr.Name = "sunIncr";
-            this.sunIncr.Size = new System.Drawing.Size(73, 22);
-            this.sunIncr.TabIndex = 9;
-            this.sunIncr.Value = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
             // 
             // btnRestore
             // 
@@ -228,57 +109,139 @@ namespace PvZRandomizer
             this.lblPath.TabIndex = 14;
             this.lblPath.Text = "Game Path";
             // 
+            // ddSunCost
+            // 
+            this.ddSunCost.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddSunCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddSunCost.FormattingEnabled = true;
+            this.ddSunCost.Items.AddRange(new object[] {
+            "Vanilla",
+            "Shuffled",
+            "Random",
+            "Chaos"});
+            this.ddSunCost.Location = new System.Drawing.Point(84, 20);
+            this.ddSunCost.Name = "ddSunCost";
+            this.ddSunCost.Size = new System.Drawing.Size(121, 24);
+            this.ddSunCost.TabIndex = 15;
+            // 
+            // lblSunCost
+            // 
+            this.lblSunCost.AutoSize = true;
+            this.lblSunCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSunCost.ForeColor = System.Drawing.Color.Red;
+            this.lblSunCost.Location = new System.Drawing.Point(17, 22);
+            this.lblSunCost.Name = "lblSunCost";
+            this.lblSunCost.Size = new System.Drawing.Size(61, 16);
+            this.lblSunCost.TabIndex = 16;
+            this.lblSunCost.Text = "Sun Cost";
+            // 
+            // groupPlants
+            // 
+            this.groupPlants.Controls.Add(this.lblOtherRate);
+            this.groupPlants.Controls.Add(this.ddOtherRate);
+            this.groupPlants.Controls.Add(this.lblRechargeRate);
+            this.groupPlants.Controls.Add(this.ddRechargeRate);
+            this.groupPlants.Controls.Add(this.lblSunCost);
+            this.groupPlants.Controls.Add(this.ddSunCost);
+            this.groupPlants.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.groupPlants.Location = new System.Drawing.Point(12, 68);
+            this.groupPlants.Name = "groupPlants";
+            this.groupPlants.Size = new System.Drawing.Size(776, 55);
+            this.groupPlants.TabIndex = 17;
+            this.groupPlants.TabStop = false;
+            this.groupPlants.Text = "Plants";
+            // 
+            // lblRechargeRate
+            // 
+            this.lblRechargeRate.AutoSize = true;
+            this.lblRechargeRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRechargeRate.ForeColor = System.Drawing.Color.Red;
+            this.lblRechargeRate.Location = new System.Drawing.Point(266, 22);
+            this.lblRechargeRate.Name = "lblRechargeRate";
+            this.lblRechargeRate.Size = new System.Drawing.Size(100, 16);
+            this.lblRechargeRate.TabIndex = 18;
+            this.lblRechargeRate.Text = "Recharge Rate";
+            // 
+            // ddRechargeRate
+            // 
+            this.ddRechargeRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddRechargeRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddRechargeRate.FormattingEnabled = true;
+            this.ddRechargeRate.Items.AddRange(new object[] {
+            "Vanilla",
+            "Shuffled",
+            "Random",
+            "Chaos"});
+            this.ddRechargeRate.Location = new System.Drawing.Point(372, 20);
+            this.ddRechargeRate.Name = "ddRechargeRate";
+            this.ddRechargeRate.Size = new System.Drawing.Size(121, 24);
+            this.ddRechargeRate.TabIndex = 17;
+            // 
+            // lblOtherRate
+            // 
+            this.lblOtherRate.AutoSize = true;
+            this.lblOtherRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOtherRate.ForeColor = System.Drawing.Color.Red;
+            this.lblOtherRate.Location = new System.Drawing.Point(549, 23);
+            this.lblOtherRate.Name = "lblOtherRate";
+            this.lblOtherRate.Size = new System.Drawing.Size(79, 16);
+            this.lblOtherRate.TabIndex = 20;
+            this.lblOtherRate.Text = "Other Rates";
+            // 
+            // ddOtherRate
+            // 
+            this.ddOtherRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddOtherRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddOtherRate.FormattingEnabled = true;
+            this.ddOtherRate.Items.AddRange(new object[] {
+            "Vanilla",
+            "Firing",
+            "Production",
+            "Both"});
+            this.ddOtherRate.Location = new System.Drawing.Point(634, 20);
+            this.ddOtherRate.Name = "ddOtherRate";
+            this.ddOtherRate.Size = new System.Drawing.Size(121, 24);
+            this.ddOtherRate.TabIndex = 19;
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 510);
+            this.Controls.Add(this.groupPlants);
             this.Controls.Add(this.lblPath);
             this.Controls.Add(this.btnSelect);
             this.Controls.Add(this.txtGamePath);
             this.Controls.Add(this.btnRestore);
-            this.Controls.Add(this.lblSunIncr);
-            this.Controls.Add(this.sunIncr);
-            this.Controls.Add(this.lblSunMax);
-            this.Controls.Add(this.sunMax);
-            this.Controls.Add(this.lblSunMin);
-            this.Controls.Add(this.sunMin);
-            this.Controls.Add(this.chkShfSun);
             this.Controls.Add(this.btnRandomize);
             this.Controls.Add(this.lblIntro);
-            this.Controls.Add(this.chkRndSun);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GUI";
             this.Text = "Randomizer";
             this.Load += new System.EventHandler(this.GUI_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.sunMin)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sunMax)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sunIncr)).EndInit();
+            this.groupPlants.ResumeLayout(false);
+            this.groupPlants.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.CheckBox chkRndSun;
         private System.Windows.Forms.Label lblIntro;
         private System.Windows.Forms.Button btnRandomize;
-        private System.Windows.Forms.CheckBox chkShfSun;
-        private System.Windows.Forms.NumericUpDown sunMin;
-        private System.Windows.Forms.Label lblSunMin;
-        private System.Windows.Forms.Label lblSunMax;
-        private System.Windows.Forms.NumericUpDown sunMax;
-        private System.Windows.Forms.Label lblSunIncr;
-        private System.Windows.Forms.NumericUpDown sunIncr;
-        private System.Windows.Forms.ToolTip tt_chkRndSun;
-        private System.Windows.Forms.ToolTip tt_chkShfSun;
         private System.Windows.Forms.Button btnRestore;
         private System.Windows.Forms.TextBox txtGamePath;
         private System.Windows.Forms.Button btnSelect;
         private System.Windows.Forms.Label lblPath;
+        private System.Windows.Forms.ComboBox ddSunCost;
+        private System.Windows.Forms.Label lblSunCost;
+        private System.Windows.Forms.GroupBox groupPlants;
+        private System.Windows.Forms.Label lblRechargeRate;
+        private System.Windows.Forms.ComboBox ddRechargeRate;
+        private System.Windows.Forms.Label lblOtherRate;
+        private System.Windows.Forms.ComboBox ddOtherRate;
     }
 }
 

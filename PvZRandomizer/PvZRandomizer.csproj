@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\GameData.cs" />
     <Compile Include="GUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +55,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Plant.cs" />
     <Compile Include="Utility\Conversion.cs" />
     <Compile Include="Utility\Randomize.cs" />
     <EmbeddedResource Include="GUI.resx">
@@ -77,6 +79,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\config.json" />
+    <None Include="Resources\plants.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

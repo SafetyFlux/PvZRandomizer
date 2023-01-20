@@ -22,16 +22,14 @@ namespace PvZRandomizer
 
         private void GUI_Load(object sender, EventArgs e)
         {
-            if (File.Exists("config/gamePath.txt"))
-                txtGamePath.Text = File.ReadAllText("config/gamePath.txt");
-
-            //InitializeTooltips();
+            SetDefaultDropdownValues();
         }
 
-        private void InitializeTooltips()
+        private void SetDefaultDropdownValues()
         {
-            tt_chkRndSun.SetToolTip(chkRndSun, "Sets the sun cost of each plant to a random value");
-            tt_chkShfSun.SetToolTip(chkShfSun, "Shuffles the sun costs between plants");
+            ddSunCost.Text = "Vanilla";
+            ddRechargeRate.Text = "Vanilla";
+            ddOtherRate.Text = "Vanilla";
         }
 
         private void BtnSelect_Click(object sender, EventArgs e)
@@ -65,12 +63,6 @@ namespace PvZRandomizer
                 {
                     Directory.CreateDirectory("backup");
                     File.Copy(gameExe, "backup/PlantsVsZombies.exe");
-                }
-
-                // Run methods based on selected settings
-                if (chkRndSun.Checked)
-                {
-                    Randomize.RandomizeSun(gameExe, sunMin.Value, sunMax.Value, sunIncr.Value);
                 }
 
                 // Display confirmation dialog
