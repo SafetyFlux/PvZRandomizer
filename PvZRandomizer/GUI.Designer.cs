@@ -40,8 +40,8 @@ namespace PvZRandomizer
             this.groupPlants = new System.Windows.Forms.GroupBox();
             this.lblRechargeRate = new System.Windows.Forms.Label();
             this.ddRechargeRate = new System.Windows.Forms.ComboBox();
-            this.lblOtherRate = new System.Windows.Forms.Label();
-            this.ddOtherRate = new System.Windows.Forms.ComboBox();
+            this.lblOtherRates = new System.Windows.Forms.Label();
+            this.ddOtherRates = new System.Windows.Forms.ComboBox();
             this.groupPlants.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -137,8 +137,8 @@ namespace PvZRandomizer
             // 
             // groupPlants
             // 
-            this.groupPlants.Controls.Add(this.lblOtherRate);
-            this.groupPlants.Controls.Add(this.ddOtherRate);
+            this.groupPlants.Controls.Add(this.lblOtherRates);
+            this.groupPlants.Controls.Add(this.ddOtherRates);
             this.groupPlants.Controls.Add(this.lblRechargeRate);
             this.groupPlants.Controls.Add(this.ddRechargeRate);
             this.groupPlants.Controls.Add(this.lblSunCost);
@@ -177,31 +177,31 @@ namespace PvZRandomizer
             this.ddRechargeRate.Size = new System.Drawing.Size(121, 24);
             this.ddRechargeRate.TabIndex = 17;
             // 
-            // lblOtherRate
+            // lblOtherRates
             // 
-            this.lblOtherRate.AutoSize = true;
-            this.lblOtherRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOtherRate.ForeColor = System.Drawing.Color.Red;
-            this.lblOtherRate.Location = new System.Drawing.Point(549, 23);
-            this.lblOtherRate.Name = "lblOtherRate";
-            this.lblOtherRate.Size = new System.Drawing.Size(79, 16);
-            this.lblOtherRate.TabIndex = 20;
-            this.lblOtherRate.Text = "Other Rates";
+            this.lblOtherRates.AutoSize = true;
+            this.lblOtherRates.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOtherRates.ForeColor = System.Drawing.Color.Red;
+            this.lblOtherRates.Location = new System.Drawing.Point(549, 23);
+            this.lblOtherRates.Name = "lblOtherRates";
+            this.lblOtherRates.Size = new System.Drawing.Size(79, 16);
+            this.lblOtherRates.TabIndex = 20;
+            this.lblOtherRates.Text = "Other Rates";
             // 
-            // ddOtherRate
+            // ddOtherRates
             // 
-            this.ddOtherRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ddOtherRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ddOtherRate.FormattingEnabled = true;
-            this.ddOtherRate.Items.AddRange(new object[] {
+            this.ddOtherRates.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddOtherRates.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddOtherRates.FormattingEnabled = true;
+            this.ddOtherRates.Items.AddRange(new object[] {
             "Vanilla",
             "Firing",
             "Production",
             "Both"});
-            this.ddOtherRate.Location = new System.Drawing.Point(634, 20);
-            this.ddOtherRate.Name = "ddOtherRate";
-            this.ddOtherRate.Size = new System.Drawing.Size(121, 24);
-            this.ddOtherRate.TabIndex = 19;
+            this.ddOtherRates.Location = new System.Drawing.Point(634, 20);
+            this.ddOtherRates.Name = "ddOtherRates";
+            this.ddOtherRates.Size = new System.Drawing.Size(121, 24);
+            this.ddOtherRates.TabIndex = 19;
             // 
             // GUI
             // 
@@ -221,6 +221,7 @@ namespace PvZRandomizer
             this.Name = "GUI";
             this.Text = "Randomizer";
             this.Load += new System.EventHandler(this.GUI_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GUI_FormClosing);
             this.groupPlants.ResumeLayout(false);
             this.groupPlants.PerformLayout();
             this.ResumeLayout(false);
@@ -240,8 +241,8 @@ namespace PvZRandomizer
         private System.Windows.Forms.GroupBox groupPlants;
         private System.Windows.Forms.Label lblRechargeRate;
         private System.Windows.Forms.ComboBox ddRechargeRate;
-        private System.Windows.Forms.Label lblOtherRate;
-        private System.Windows.Forms.ComboBox ddOtherRate;
+        private System.Windows.Forms.Label lblOtherRates;
+        private System.Windows.Forms.ComboBox ddOtherRates;
     }
 }
 
