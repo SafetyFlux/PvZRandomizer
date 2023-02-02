@@ -1,852 +1,737 @@
-{
-  "peashooter": {
-    "enabled": true,
-    "seed_packet_id": "00",
-    "english_name": "Peashooter",
-    "sun_cost_data": {
-      "decimal_start": 5033770,
-      "default_value": 100,
-      "current_value": 100
+[
+  {
+    "Enabled": true,
+    "SeedPacketID": "00",
+    "EnglishName": "Peashooter",
+    "SunCostData": {
+      "DecimalStart": 5033770,
+      "DefaultValue": 100,
+      "CurrentValue": 100
     },
-    "recharge_rate_data": {
-      "decimal_start": 5033773,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5033782,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5033773,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "sunflower": {
-    "enabled": true,
-    "seed_packet_id": "01",
-    "english_name": "Sunflower",
-    "sun_cost_data": {
-      "decimal_start": 5033806,
-      "default_value": 50,
-      "current_value": 50
+  {
+    "Enabled": true,
+    "SeedPacketID": "01",
+    "EnglishName": "Sunflower",
+    "SunCostData": {
+      "DecimalStart": 5033806,
+      "DefaultValue": 50,
+      "CurrentValue": 50
     },
-    "recharge_rate_data": {
-      "decimal_start": 5033809,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "production_rate_data": {
-      "decimal_start": 5033818,
-      "default_value": 2500,
-      "current_value": 2500
+    "RechargeRateData": {
+      "DecimalStart": 5033809,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "cherry_bomb": {
-    "enabled": true,
-    "seed_packet_id": "02",
-    "english_name": "Cherry Bomb",
-    "sun_cost_data": {
-      "decimal_start": 5033842,
-      "default_value": 150,
-      "current_value": 150
+  {
+    "Enabled": true,
+    "SeedPacketID": "02",
+    "EnglishName": "Cherry Bomb",
+    "SunCostData": {
+      "DecimalStart": 5033842,
+      "DefaultValue": 150,
+      "CurrentValue": 150
     },
-    "recharge_rate_data": {
-      "decimal_start": 5033845,
-      "default_value": 5000,
-      "current_value": 5000
+    "RechargeRateData": {
+      "DecimalStart": 5033845,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "wall_nut": {
-    "enabled": true,
-    "seed_packet_id": "03",
-    "english_name": "Wall-nut",
-    "sun_cost_data": {
-      "decimal_start": 5033878,
-      "default_value": 50,
-      "current_value": 50
+  {
+    "Enabled": true,
+    "SeedPacketID": "03",
+    "EnglishName": "Wall-nut",
+    "SunCostData": {
+      "DecimalStart": 5033878,
+      "DefaultValue": 50,
+      "CurrentValue": 50
     },
-    "recharge_rate_data": {
-      "decimal_start": 5033881,
-      "default_value": 3000,
-      "current_value": 3000
+    "RechargeRateData": {
+      "DecimalStart": 5033881,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "potato_mine": {
-    "enabled": true,
-    "seed_packet_id": "04",
-    "english_name": "Potato Mine",
-    "sun_cost_data": {
-      "decimal_start": 5033914,
-      "default_value": 25,
-      "current_value": 25
+  {
+    "Enabled": true,
+    "SeedPacketID": "04",
+    "EnglishName": "Potato Mine",
+    "SunCostData": {
+      "DecimalStart": 5033914,
+      "DefaultValue": 25,
+      "CurrentValue": 25
     },
-    "recharge_rate_data": {
-      "decimal_start": 5033917,
-      "default_value": 3000,
-      "current_value": 3000
+    "RechargeRateData": {
+      "DecimalStart": 5033917,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "snow_pea": {
-    "enabled": true,
-    "seed_packet_id": "05",
-    "english_name": "Snow Pea",
-    "sun_cost_data": {
-      "decimal_start": 5033950,
-      "default_value": 175,
-      "current_value": 175
+  {
+    "Enabled": true,
+    "SeedPacketID": "05",
+    "EnglishName": "Snow Pea",
+    "SunCostData": {
+      "DecimalStart": 5033950,
+      "DefaultValue": 175,
+      "CurrentValue": 175
     },
-    "recharge_rate_data": {
-      "decimal_start": 5033953,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5033962,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5033953,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "chomper": {
-    "enabled": true,
-    "seed_packet_id": "06",
-    "english_name": "Chomper",
-    "sun_cost_data": {
-      "decimal_start": 5033986,
-      "default_value": 150,
-      "current_value": 150
+  {
+    "Enabled": true,
+    "SeedPacketID": "06",
+    "EnglishName": "Chomper",
+    "SunCostData": {
+      "DecimalStart": 5033986,
+      "DefaultValue": 150,
+      "CurrentValue": 150
     },
-    "recharge_rate_data": {
-      "decimal_start": 5033989,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5033989,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "repeater": {
-    "enabled": true,
-    "seed_packet_id": "07",
-    "english_name": "Repeater",
-    "sun_cost_data": {
-      "decimal_start": 5034022,
-      "default_value": 200,
-      "current_value": 200
+  {
+    "Enabled": true,
+    "SeedPacketID": "07",
+    "EnglishName": "Repeater",
+    "SunCostData": {
+      "DecimalStart": 5034022,
+      "DefaultValue": 200,
+      "CurrentValue": 200
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034025,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034034,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034025,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "puff_shroom": {
-    "enabled": true,
-    "seed_packet_id": "08",
-    "english_name": "Puff-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034058,
-      "default_value": 0,
-      "current_value": 0
+  {
+    "Enabled": true,
+    "SeedPacketID": "08",
+    "EnglishName": "Puff-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034058,
+      "DefaultValue": 0,
+      "CurrentValue": 0
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034061,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034070,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034061,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "sun_shroom": {
-    "enabled": true,
-    "seed_packet_id": "09",
-    "english_name": "Sun-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034094,
-      "default_value": 25,
-      "current_value": 25
+  {
+    "Enabled": true,
+    "SeedPacketID": "09",
+    "EnglishName": "Sun-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034094,
+      "DefaultValue": 25,
+      "CurrentValue": 25
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034097,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "production_rate_data": {
-      "decimal_start": 5034106,
-      "default_value": 2500,
-      "current_value": 2500
+    "RechargeRateData": {
+      "DecimalStart": 5034097,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "fume_shroom": {
-    "enabled": true,
-    "seed_packet_id": "0A",
-    "english_name": "Fume-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034130,
-      "default_value": 75,
-      "current_value": 75
+  {
+    "Enabled": true,
+    "SeedPacketID": "0A",
+    "EnglishName": "Fume-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034130,
+      "DefaultValue": 75,
+      "CurrentValue": 75
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034133,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034142,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034133,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "grave_buster": {
-    "enabled": true,
-    "seed_packet_id": "0B",
-    "english_name": "Grave Buster",
-    "sun_cost_data": {
-      "decimal_start": 5034166,
-      "default_value": 75,
-      "current_value": 75
+  {
+    "Enabled": true,
+    "SeedPacketID": "0B",
+    "EnglishName": "Grave Buster",
+    "SunCostData": {
+      "DecimalStart": 5034166,
+      "DefaultValue": 75,
+      "CurrentValue": 75
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034169,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5034169,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "hypno_shroom": {
-    "enabled": true,
-    "seed_packet_id": "0C",
-    "english_name": "Hypno-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034202,
-      "default_value": 75,
-      "current_value": 75
+  {
+    "Enabled": true,
+    "SeedPacketID": "0C",
+    "EnglishName": "Hypno-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034202,
+      "DefaultValue": 75,
+      "CurrentValue": 75
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034205,
-      "default_value": 3000,
-      "current_value": 3000
+    "RechargeRateData": {
+      "DecimalStart": 5034205,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "scaredy_shroom": {
-    "enabled": true,
-    "seed_packet_id": "0D",
-    "english_name": "Scaredy-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034238,
-      "default_value": 25,
-      "current_value": 25
+  {
+    "Enabled": true,
+    "SeedPacketID": "0D",
+    "EnglishName": "Scaredy-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034238,
+      "DefaultValue": 25,
+      "CurrentValue": 25
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034241,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034250,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034241,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "ice_shroom": {
-    "enabled": true,
-    "seed_packet_id": "0E",
-    "english_name": "Ice-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034274,
-      "default_value": 75,
-      "current_value": 75
+  {
+    "Enabled": true,
+    "SeedPacketID": "0E",
+    "EnglishName": "Ice-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034274,
+      "DefaultValue": 75,
+      "CurrentValue": 75
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034277,
-      "default_value": 5000,
-      "current_value": 5000
+    "RechargeRateData": {
+      "DecimalStart": 5034277,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "doom_shroom": {
-    "enabled": true,
-    "seed_packet_id": "0F",
-    "english_name": "Doom-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034310,
-      "default_value": 125,
-      "current_value": 125
+  {
+    "Enabled": true,
+    "SeedPacketID": "0F",
+    "EnglishName": "Doom-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034310,
+      "DefaultValue": 125,
+      "CurrentValue": 125
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034313,
-      "default_value": 5000,
-      "current_value": 5000
+    "RechargeRateData": {
+      "DecimalStart": 5034313,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "lily_pad": {
-    "enabled": true,
-    "seed_packet_id": "10",
-    "english_name": "Lily Pad",
-    "sun_cost_data": {
-      "decimal_start": 5034346,
-      "default_value": 25,
-      "current_value": 25
+  {
+    "Enabled": true,
+    "SeedPacketID": "10",
+    "EnglishName": "Lily Pad",
+    "SunCostData": {
+      "DecimalStart": 5034346,
+      "DefaultValue": 25,
+      "CurrentValue": 25
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034349,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5034349,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "squash": {
-    "enabled": true,
-    "seed_packet_id": "11",
-    "english_name": "Squash",
-    "sun_cost_data": {
-      "decimal_start": 5034382,
-      "default_value": 50,
-      "current_value": 50
+  {
+    "Enabled": true,
+    "SeedPacketID": "11",
+    "EnglishName": "Squash",
+    "SunCostData": {
+      "DecimalStart": 5034382,
+      "DefaultValue": 50,
+      "CurrentValue": 50
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034385,
-      "default_value": 3000,
-      "current_value": 3000
+    "RechargeRateData": {
+      "DecimalStart": 5034385,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "threepeater": {
-    "enabled": true,
-    "seed_packet_id": "12",
-    "english_name": "Threepeater",
-    "sun_cost_data": {
-      "decimal_start": 5034418,
-      "default_value": 325,
-      "current_value": 325
+  {
+    "Enabled": true,
+    "SeedPacketID": "12",
+    "EnglishName": "Threepeater",
+    "SunCostData": {
+      "DecimalStart": 5034418,
+      "DefaultValue": 325,
+      "CurrentValue": 325
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034421,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034430,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034421,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "tangle_kelp": {
-    "enabled": true,
-    "seed_packet_id": "13",
-    "english_name": "Tangle Kelp",
-    "sun_cost_data": {
-      "decimal_start": 5034454,
-      "default_value": 25,
-      "current_value": 25
+  {
+    "Enabled": true,
+    "SeedPacketID": "13",
+    "EnglishName": "Tangle Kelp",
+    "SunCostData": {
+      "DecimalStart": 5034454,
+      "DefaultValue": 25,
+      "CurrentValue": 25
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034457,
-      "default_value": 3000,
-      "current_value": 3000
+    "RechargeRateData": {
+      "DecimalStart": 5034457,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "jalapeno": {
-    "enabled": true,
-    "seed_packet_id": "14",
-    "english_name": "Jalapeno",
-    "sun_cost_data": {
-      "decimal_start": 5034490,
-      "default_value": 125,
-      "current_value": 125
+  {
+    "Enabled": true,
+    "SeedPacketID": "14",
+    "EnglishName": "Jalapeno",
+    "SunCostData": {
+      "DecimalStart": 5034490,
+      "DefaultValue": 125,
+      "CurrentValue": 125
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034493,
-      "default_value": 5000,
-      "current_value": 5000
+    "RechargeRateData": {
+      "DecimalStart": 5034493,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "spikeweed": {
-    "enabled": true,
-    "seed_packet_id": "15",
-    "english_name": "Spikeweed",
-    "sun_cost_data": {
-      "decimal_start": 5034526,
-      "default_value": 100,
-      "current_value": 100
+  {
+    "Enabled": true,
+    "SeedPacketID": "15",
+    "EnglishName": "Spikeweed",
+    "SunCostData": {
+      "DecimalStart": 5034526,
+      "DefaultValue": 100,
+      "CurrentValue": 100
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034529,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5034529,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "torchwood": {
-    "enabled": true,
-    "seed_packet_id": "16",
-    "english_name": "Torchwood",
-    "sun_cost_data": {
-      "decimal_start": 5034562,
-      "default_value": 175,
-      "current_value": 175
+  {
+    "Enabled": true,
+    "SeedPacketID": "16",
+    "EnglishName": "Torchwood",
+    "SunCostData": {
+      "DecimalStart": 5034562,
+      "DefaultValue": 175,
+      "CurrentValue": 175
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034565,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5034565,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "tall_nut": {
-    "enabled": true,
-    "seed_packet_id": "17",
-    "english_name": "Tall-nut",
-    "sun_cost_data": {
-      "decimal_start": 5034598,
-      "default_value": 125,
-      "current_value": 125
+  {
+    "Enabled": true,
+    "SeedPacketID": "17",
+    "EnglishName": "Tall-nut",
+    "SunCostData": {
+      "DecimalStart": 5034598,
+      "DefaultValue": 125,
+      "CurrentValue": 125
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034601,
-      "default_value": 3000,
-      "current_value": 3000
+    "RechargeRateData": {
+      "DecimalStart": 5034601,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "sea_shroom": {
-    "enabled": true,
-    "seed_packet_id": "18",
-    "english_name": "Sea-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034634,
-      "default_value": 0,
-      "current_value": 0
+  {
+    "Enabled": true,
+    "SeedPacketID": "18",
+    "EnglishName": "Sea-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034634,
+      "DefaultValue": 0,
+      "CurrentValue": 0
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034637,
-      "default_value": 3000,
-      "current_value": 3000
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034646,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034637,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "plantern": {
-    "enabled": true,
-    "seed_packet_id": "19",
-    "english_name": "Plantern",
-    "sun_cost_data": {
-      "decimal_start": 5034670,
-      "default_value": 25,
-      "current_value": 25
+  {
+    "Enabled": true,
+    "SeedPacketID": "19",
+    "EnglishName": "Plantern",
+    "SunCostData": {
+      "DecimalStart": 5034670,
+      "DefaultValue": 25,
+      "CurrentValue": 25
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034673,
-      "default_value": 3000,
-      "current_value": 3000
+    "RechargeRateData": {
+      "DecimalStart": 5034673,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "cactus": {
-    "enabled": true,
-    "seed_packet_id": "1A",
-    "english_name": "Cactus",
-    "sun_cost_data": {
-      "decimal_start": 5034706,
-      "default_value": 125,
-      "current_value": 125
+  {
+    "Enabled": true,
+    "SeedPacketID": "1A",
+    "EnglishName": "Cactus",
+    "SunCostData": {
+      "DecimalStart": 5034706,
+      "DefaultValue": 125,
+      "CurrentValue": 125
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034709,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034718,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034709,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "blover": {
-    "enabled": true,
-    "seed_packet_id": "1B",
-    "english_name": "Blover",
-    "sun_cost_data": {
-      "decimal_start": 5034742,
-      "default_value": 100,
-      "current_value": 100
+  {
+    "Enabled": true,
+    "SeedPacketID": "1B",
+    "EnglishName": "Blover",
+    "SunCostData": {
+      "DecimalStart": 5034742,
+      "DefaultValue": 100,
+      "CurrentValue": 100
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034745,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5034745,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "split_pea": {
-    "enabled": true,
-    "seed_packet_id": "1C",
-    "english_name": "Split Pea",
-    "sun_cost_data": {
-      "decimal_start": 5034778,
-      "default_value": 125,
-      "current_value": 125
+  {
+    "Enabled": true,
+    "SeedPacketID": "1C",
+    "EnglishName": "Split Pea",
+    "SunCostData": {
+      "DecimalStart": 5034778,
+      "DefaultValue": 125,
+      "CurrentValue": 125
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034781,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034790,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034781,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "starfruit": {
-    "enabled": true,
-    "seed_packet_id": "1D",
-    "english_name": "Starfruit",
-    "sun_cost_data": {
-      "decimal_start": 5034814,
-      "default_value": 125,
-      "current_value": 125
+  {
+    "Enabled": true,
+    "SeedPacketID": "1D",
+    "EnglishName": "Starfruit",
+    "SunCostData": {
+      "DecimalStart": 5034814,
+      "DefaultValue": 125,
+      "CurrentValue": 125
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034817,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034826,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5034817,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "pumpkin": {
-    "enabled": true,
-    "seed_packet_id": "1E",
-    "english_name": "Pumpkin",
-    "sun_cost_data": {
-      "decimal_start": 5034850,
-      "default_value": 125,
-      "current_value": 125
+  {
+    "Enabled": true,
+    "SeedPacketID": "1E",
+    "EnglishName": "Pumpkin",
+    "SunCostData": {
+      "DecimalStart": 5034850,
+      "DefaultValue": 125,
+      "CurrentValue": 125
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034853,
-      "default_value": 3000,
-      "current_value": 3000
+    "RechargeRateData": {
+      "DecimalStart": 5034853,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "magnet_shroom": {
-    "enabled": true,
-    "seed_packet_id": "1F",
-    "english_name": "Magnet-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5034886,
-      "default_value": 100,
-      "current_value": 100
+  {
+    "Enabled": true,
+    "SeedPacketID": "1F",
+    "EnglishName": "Magnet-shroom",
+    "SunCostData": {
+      "DecimalStart": 5034886,
+      "DefaultValue": 100,
+      "CurrentValue": 100
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034889,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5034889,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "cabbage_pult": {
-    "enabled": true,
-    "seed_packet_id": "20",
-    "english_name": "Cabbage-pult",
-    "sun_cost_data": {
-      "decimal_start": 5034922,
-      "default_value": 100,
-      "current_value": 100
+  {
+    "Enabled": true,
+    "SeedPacketID": "20",
+    "EnglishName": "Cabbage-pult",
+    "SunCostData": {
+      "DecimalStart": 5034922,
+      "DefaultValue": 100,
+      "CurrentValue": 100
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034925,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5034934,
-      "default_value": 300,
-      "current_value": 300
+    "RechargeRateData": {
+      "DecimalStart": 5034925,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "flower_pot": {
-    "enabled": true,
-    "seed_packet_id": "21",
-    "english_name": "Flower Pot",
-    "sun_cost_data": {
-      "decimal_start": 5034958,
-      "default_value": 25,
-      "current_value": 25
+  {
+    "Enabled": true,
+    "SeedPacketID": "21",
+    "EnglishName": "Flower Pot",
+    "SunCostData": {
+      "DecimalStart": 5034958,
+      "DefaultValue": 25,
+      "CurrentValue": 25
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034961,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5034961,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "kernel_pult": {
-    "enabled": true,
-    "seed_packet_id": "22",
-    "english_name": "Kernel-pult",
-    "sun_cost_data": {
-      "decimal_start": 5034994,
-      "default_value": 100,
-      "current_value": 100
+  {
+    "Enabled": true,
+    "SeedPacketID": "22",
+    "EnglishName": "Kernel-pult",
+    "SunCostData": {
+      "DecimalStart": 5034994,
+      "DefaultValue": 100,
+      "CurrentValue": 100
     },
-    "recharge_rate_data": {
-      "decimal_start": 5034997,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5035006,
-      "default_value": 300,
-      "current_value": 300
+    "RechargeRateData": {
+      "DecimalStart": 5034997,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "coffee_bean": {
-    "enabled": true,
-    "seed_packet_id": "23",
-    "english_name": "Coffee Bean",
-    "sun_cost_data": {
-      "decimal_start": 5035030,
-      "default_value": 75,
-      "current_value": 75
+  {
+    "Enabled": true,
+    "SeedPacketID": "23",
+    "EnglishName": "Coffee Bean",
+    "SunCostData": {
+      "DecimalStart": 5035030,
+      "DefaultValue": 75,
+      "CurrentValue": 75
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035033,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5035033,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "garlic": {
-    "enabled": true,
-    "seed_packet_id": "24",
-    "english_name": "Garlic",
-    "sun_cost_data": {
-      "decimal_start": 5035066,
-      "default_value": 50,
-      "current_value": 50
+  {
+    "Enabled": true,
+    "SeedPacketID": "24",
+    "EnglishName": "Garlic",
+    "SunCostData": {
+      "DecimalStart": 5035066,
+      "DefaultValue": 50,
+      "CurrentValue": 50
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035069,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5035069,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "umbrella_leaf": {
-    "enabled": true,
-    "seed_packet_id": "25",
-    "english_name": "Umbrella Leaf",
-    "sun_cost_data": {
-      "decimal_start": 5035102,
-      "default_value": 100,
-      "current_value": 100
+  {
+    "Enabled": true,
+    "SeedPacketID": "25",
+    "EnglishName": "Umbrella Leaf",
+    "SunCostData": {
+      "DecimalStart": 5035102,
+      "DefaultValue": 100,
+      "CurrentValue": 100
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035105,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5035105,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "marigold": {
-    "enabled": true,
-    "seed_packet_id": "26",
-    "english_name": "Marigold",
-    "sun_cost_data": {
-      "decimal_start": 5035138,
-      "default_value": 50,
-      "current_value": 50
+  {
+    "Enabled": true,
+    "SeedPacketID": "26",
+    "EnglishName": "Marigold",
+    "SunCostData": {
+      "DecimalStart": 5035138,
+      "DefaultValue": 50,
+      "CurrentValue": 50
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035141,
-      "default_value": 3000,
-      "current_value": 3000
-    },
-    "production_rate_data": {
-      "decimal_start": 5035150,
-      "default_value": 2500,
-      "current_value": 2500
+    "RechargeRateData": {
+      "DecimalStart": 5035141,
+      "DefaultValue": 3000,
+      "CurrentValue": 3000
     }
   },
-  "melon_pult": {
-    "enabled": true,
-    "seed_packet_id": "27",
-    "english_name": "Melon-pult",
-    "sun_cost_data": {
-      "decimal_start": 5035174,
-      "default_value": 300,
-      "current_value": 300
+  {
+    "Enabled": true,
+    "SeedPacketID": "27",
+    "EnglishName": "Melon-pult",
+    "SunCostData": {
+      "DecimalStart": 5035174,
+      "DefaultValue": 300,
+      "CurrentValue": 300
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035177,
-      "default_value": 750,
-      "current_value": 750
-    },
-    "firing_rate_data": {
-      "decimal_start": 5035186,
-      "default_value": 300,
-      "current_value": 300
+    "RechargeRateData": {
+      "DecimalStart": 5035177,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   },
-  "gatling_pea": {
-    "enabled": true,
-    "seed_packet_id": "28",
-    "english_name": "Gatling Pea",
-    "sun_cost_data": {
-      "decimal_start": 5035210,
-      "default_value": 250,
-      "current_value": 250
+  {
+    "Enabled": true,
+    "SeedPacketID": "28",
+    "EnglishName": "Gatling Pea",
+    "SunCostData": {
+      "DecimalStart": 5035210,
+      "DefaultValue": 250,
+      "CurrentValue": 250
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035213,
-      "default_value": 5000,
-      "current_value": 5000
-    },
-    "firing_rate_data": {
-      "decimal_start": 5035222,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5035213,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "twin_sunflower": {
-    "enabled": true,
-    "seed_packet_id": "29",
-    "english_name": "Twin Sunflower",
-    "sun_cost_data": {
-      "decimal_start": 5035246,
-      "default_value": 150,
-      "current_value": 150
+  {
+    "Enabled": true,
+    "SeedPacketID": "29",
+    "EnglishName": "Twin Sunflower",
+    "SunCostData": {
+      "DecimalStart": 5035246,
+      "DefaultValue": 150,
+      "CurrentValue": 150
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035249,
-      "default_value": 5000,
-      "current_value": 5000
-    },
-    "production_rate_data": {
-      "decimal_start": 5035258,
-      "default_value": 2500,
-      "current_value": 2500
+    "RechargeRateData": {
+      "DecimalStart": 5035249,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "gloom_shroom": {
-    "enabled": true,
-    "seed_packet_id": "2A",
-    "english_name": "Gloom-shroom",
-    "sun_cost_data": {
-      "decimal_start": 5035282,
-      "default_value": 150,
-      "current_value": 150
+  {
+    "Enabled": true,
+    "SeedPacketID": "2A",
+    "EnglishName": "Gloom-shroom",
+    "SunCostData": {
+      "DecimalStart": 5035282,
+      "DefaultValue": 150,
+      "CurrentValue": 150
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035285,
-      "default_value": 5000,
-      "current_value": 5000
-    },
-    "firing_rate_data": {
-      "decimal_start": 5035294,
-      "default_value": 200,
-      "current_value": 200
+    "RechargeRateData": {
+      "DecimalStart": 5035285,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "cattail": {
-    "enabled": true,
-    "seed_packet_id": "2B",
-    "english_name": "Cattail",
-    "sun_cost_data": {
-      "decimal_start": 5035318,
-      "default_value": 225,
-      "current_value": 225
+  {
+    "Enabled": true,
+    "SeedPacketID": "2B",
+    "EnglishName": "Cattail",
+    "SunCostData": {
+      "DecimalStart": 5035318,
+      "DefaultValue": 225,
+      "CurrentValue": 225
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035321,
-      "default_value": 5000,
-      "current_value": 5000
-    },
-    "firing_rate_data": {
-      "decimal_start": 5035330,
-      "default_value": 150,
-      "current_value": 150
+    "RechargeRateData": {
+      "DecimalStart": 5035321,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "winter_melon": {
-    "enabled": true,
-    "seed_packet_id": "2C",
-    "english_name": "Winter Melon",
-    "sun_cost_data": {
-      "decimal_start": 5035354,
-      "default_value": 200,
-      "current_value": 200
+  {
+    "Enabled": true,
+    "SeedPacketID": "2C",
+    "EnglishName": "Winter Melon",
+    "SunCostData": {
+      "DecimalStart": 5035354,
+      "DefaultValue": 200,
+      "CurrentValue": 200
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035357,
-      "default_value": 5000,
-      "current_value": 5000
-    },
-    "firing_rate_data": {
-      "decimal_start": 5035366,
-      "default_value": 300,
-      "current_value": 300
+    "RechargeRateData": {
+      "DecimalStart": 5035357,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "gold_magnet": {
-    "enabled": true,
-    "seed_packet_id": "2D",
-    "english_name": "Gold Magnet",
-    "sun_cost_data": {
-      "decimal_start": 5035390,
-      "default_value": 50,
-      "current_value": 50
+  {
+    "Enabled": true,
+    "SeedPacketID": "2D",
+    "EnglishName": "Gold Magnet",
+    "SunCostData": {
+      "DecimalStart": 5035390,
+      "DefaultValue": 50,
+      "CurrentValue": 50
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035393,
-      "default_value": 5000,
-      "current_value": 5000
+    "RechargeRateData": {
+      "DecimalStart": 5035393,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "spikerock": {
-    "enabled": true,
-    "seed_packet_id": "2E",
-    "english_name": "Spikerock",
-    "sun_cost_data": {
-      "decimal_start": 5035426,
-      "default_value": 125,
-      "current_value": 125
+  {
+    "Enabled": true,
+    "SeedPacketID": "2E",
+    "EnglishName": "Spikerock",
+    "SunCostData": {
+      "DecimalStart": 5035426,
+      "DefaultValue": 125,
+      "CurrentValue": 125
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035429,
-      "default_value": 5000,
-      "current_value": 5000
+    "RechargeRateData": {
+      "DecimalStart": 5035429,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "cob_cannon": {
-    "enabled": true,
-    "seed_packet_id": "2F",
-    "english_name": "Cob Cannon",
-    "sun_cost_data": {
-      "decimal_start": 5035462,
-      "default_value": 500,
-      "current_value": 500
+  {
+    "Enabled": true,
+    "SeedPacketID": "2F",
+    "EnglishName": "Cob Cannon",
+    "SunCostData": {
+      "DecimalStart": 5035462,
+      "DefaultValue": 500,
+      "CurrentValue": 500
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035465,
-      "default_value": 5000,
-      "current_value": 5000
-    },
-    "firing_rate_data": {
-      "decimal_start": 5035474,
-      "default_value": 600,
-      "current_value": 600
+    "RechargeRateData": {
+      "DecimalStart": 5035465,
+      "DefaultValue": 5000,
+      "CurrentValue": 5000
     }
   },
-  "imitater": {
-    "enabled": true,
-    "seed_packet_id": "30",
-    "english_name": "Imitater",
-    "sun_cost_data": {
-      "decimal_start": 5035498,
-      "default_value": 0,
-      "current_value": 0
+  {
+    "Enabled": true,
+    "SeedPacketID": "30",
+    "EnglishName": "Imitater",
+    "SunCostData": {
+      "DecimalStart": 5035498,
+      "DefaultValue": 0,
+      "CurrentValue": 0
     },
-    "recharge_rate_data": {
-      "decimal_start": 5035501,
-      "default_value": 750,
-      "current_value": 750
+    "RechargeRateData": {
+      "DecimalStart": 5035501,
+      "DefaultValue": 750,
+      "CurrentValue": 750
     }
   }
-}
+]
