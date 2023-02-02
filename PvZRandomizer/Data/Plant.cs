@@ -12,8 +12,8 @@ namespace PvZRandomizer.Data
         public bool Enabled { get; set; }               // Whether randomizing the plant is enabled [NOT IMPLEMENTED]
         public string SeedPacketID { get; set; }        // The plant's seed packet ID (2-digit hex value)
         public string EnglishName { get; set; }         // The plant's name
-        public SunCostData SunCost { get; set; }
-        public RechargeRateData RechargeRate { get; set; }
+        public SunCostData SunCostData { get; set; }
+        public RechargeRateData RechargeRateData { get; set; }
 
         // Overridden ToString method
         public override string ToString()
