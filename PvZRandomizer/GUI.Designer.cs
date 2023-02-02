@@ -38,10 +38,10 @@ namespace PvZRandomizer
             this.ddSunCost = new System.Windows.Forms.ComboBox();
             this.lblSunCost = new System.Windows.Forms.Label();
             this.groupPlants = new System.Windows.Forms.GroupBox();
-            this.lblRechargeRate = new System.Windows.Forms.Label();
-            this.ddRechargeRate = new System.Windows.Forms.ComboBox();
             this.lblOtherRates = new System.Windows.Forms.Label();
             this.ddOtherRates = new System.Windows.Forms.ComboBox();
+            this.lblRechargeRate = new System.Windows.Forms.Label();
+            this.ddRechargeRate = new System.Windows.Forms.ComboBox();
             this.groupPlants.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,7 +128,7 @@ namespace PvZRandomizer
             // 
             this.lblSunCost.AutoSize = true;
             this.lblSunCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSunCost.ForeColor = System.Drawing.Color.Red;
+            this.lblSunCost.ForeColor = System.Drawing.Color.Black;
             this.lblSunCost.Location = new System.Drawing.Point(17, 22);
             this.lblSunCost.Name = "lblSunCost";
             this.lblSunCost.Size = new System.Drawing.Size(61, 16);
@@ -150,32 +150,6 @@ namespace PvZRandomizer
             this.groupPlants.TabIndex = 17;
             this.groupPlants.TabStop = false;
             this.groupPlants.Text = "Plants";
-            // 
-            // lblRechargeRate
-            // 
-            this.lblRechargeRate.AutoSize = true;
-            this.lblRechargeRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRechargeRate.ForeColor = System.Drawing.Color.Red;
-            this.lblRechargeRate.Location = new System.Drawing.Point(266, 22);
-            this.lblRechargeRate.Name = "lblRechargeRate";
-            this.lblRechargeRate.Size = new System.Drawing.Size(100, 16);
-            this.lblRechargeRate.TabIndex = 18;
-            this.lblRechargeRate.Text = "Recharge Rate";
-            // 
-            // ddRechargeRate
-            // 
-            this.ddRechargeRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ddRechargeRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ddRechargeRate.FormattingEnabled = true;
-            this.ddRechargeRate.Items.AddRange(new object[] {
-            "Vanilla",
-            "Shuffled",
-            "Random",
-            "Chaos"});
-            this.ddRechargeRate.Location = new System.Drawing.Point(372, 20);
-            this.ddRechargeRate.Name = "ddRechargeRate";
-            this.ddRechargeRate.Size = new System.Drawing.Size(121, 24);
-            this.ddRechargeRate.TabIndex = 17;
             // 
             // lblOtherRates
             // 
@@ -203,6 +177,32 @@ namespace PvZRandomizer
             this.ddOtherRates.Size = new System.Drawing.Size(121, 24);
             this.ddOtherRates.TabIndex = 19;
             // 
+            // lblRechargeRate
+            // 
+            this.lblRechargeRate.AutoSize = true;
+            this.lblRechargeRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRechargeRate.ForeColor = System.Drawing.Color.Black;
+            this.lblRechargeRate.Location = new System.Drawing.Point(266, 22);
+            this.lblRechargeRate.Name = "lblRechargeRate";
+            this.lblRechargeRate.Size = new System.Drawing.Size(100, 16);
+            this.lblRechargeRate.TabIndex = 18;
+            this.lblRechargeRate.Text = "Recharge Rate";
+            // 
+            // ddRechargeRate
+            // 
+            this.ddRechargeRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddRechargeRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddRechargeRate.FormattingEnabled = true;
+            this.ddRechargeRate.Items.AddRange(new object[] {
+            "Vanilla",
+            "Shuffled",
+            "Random",
+            "Chaos"});
+            this.ddRechargeRate.Location = new System.Drawing.Point(372, 20);
+            this.ddRechargeRate.Name = "ddRechargeRate";
+            this.ddRechargeRate.Size = new System.Drawing.Size(121, 24);
+            this.ddRechargeRate.TabIndex = 17;
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -220,8 +220,8 @@ namespace PvZRandomizer
             this.MinimizeBox = false;
             this.Name = "GUI";
             this.Text = "Randomizer";
-            this.Load += new System.EventHandler(this.GUI_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GUI_FormClosing);
+            this.Load += new System.EventHandler(this.GUI_Load);
             this.groupPlants.ResumeLayout(false);
             this.groupPlants.PerformLayout();
             this.ResumeLayout(false);
